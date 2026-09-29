@@ -29,7 +29,7 @@
   };
 
   mine.programs = {
-    datagrip.enable = true;
+    datagrip.enable = false;
     # Symlinks ~/.claude into modules/config/claude; see docs/two-paths.md.
     claude-code.enable = true;
   };
