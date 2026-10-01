@@ -47,6 +47,7 @@
       "docker-desktop"
       "google-chrome"
       "openlens"
+      "slack"
       "visual-studio-code"
       "warp"
     ];
