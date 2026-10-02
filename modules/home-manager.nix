@@ -15,6 +15,8 @@ in
    ./programs/datagrip
    # Likewise: it owns home files and an option the work module contributes to.
    ./programs/claude-code
+   # Likewise: the App Store install plus a system activation step.
+   ./programs/xcode
   ];
 
   # It me

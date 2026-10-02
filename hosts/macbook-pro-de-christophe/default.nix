@@ -32,6 +32,8 @@
     datagrip.enable = false;
     # Symlinks ~/.claude into modules/config/claude; see docs/two-paths.md.
     claude-code.enable = true;
+    # From the App Store; sign in to App Store.app once before switching.
+    xcode.enable = true;
   };
 
   # WeMaintain: ~/.aws/config, withPg and friends, the Pritunl VPN, wm-login

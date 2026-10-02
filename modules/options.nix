@@ -132,6 +132,13 @@
       connections are in every project on every machine. Off means this config
       does not install DataGrip and never touches its files
     '';
+
+    xcode.enable = lib.mkEnableOption ''
+      Xcode from the Mac App Store, plus the root-only setup it needs before
+      `xcodebuild` works: `xcode-select` pointed at it, the license accepted,
+      and the first-launch components installed. Requires a one-time sign-in
+      to App Store.app; see `mine.homebrew.masApps`
+    '';
   };
 
   # What to install from Homebrew. This is the "wanted by a person" half of the
@@ -163,6 +170,21 @@
         Homebrew casks to install: GUI applications, which on macOS is very
         nearly all of them. A cask a module needs to function is declared by
         that module rather than listed here.
+      '';
+    };
+
+    masApps = lib.mkOption {
+      type = lib.types.attrsOf lib.types.ints.positive;
+      default = { };
+      example = { Keynote = 409183694; };
+      description = ''
+        Mac App Store apps to install with `mas`, as name = App Store id (the
+        number in the app's apps.apple.com URL). The name is only a label.
+
+        Needs a one-time sign-in to App Store.app first: `mas` cannot sign in
+        on current macOS, and without an account the activation fails at the
+        Homebrew step. Removing an app from here does not uninstall it, so it
+        behaves the same as `cleanup = "none"` does for casks.
       '';
     };
 

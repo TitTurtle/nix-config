@@ -35,7 +35,7 @@ in
       cleanup = "none";
     };
 
-    inherit (config.mine.homebrew) brews casks taps;
+    inherit (config.mine.homebrew) brews casks masApps taps;
   };
 
   # The imperative front door (#35). `nix-homebrew.mutableTaps = false` makes
