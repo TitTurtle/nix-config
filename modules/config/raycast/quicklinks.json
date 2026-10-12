@@ -1,23 +1,14 @@
 [
   {
     "openWith": "Visual Studio Code",
-    "name": "wmtn dbt code",
+    "name": "wmtn backend code",
     "iconName": "brand-vscode-16",
-    "link": "\/Users\/david\/wmtn\/dbt"
+    "link": "\/Users\/christophe\/dev\/backend"
   },
   {
-    "name": "wmtn backend zed",
-    "link": "\/Users\/david\/wmtn\/backend",
-    "openWith": "Zed"
-  },
-  {
-    "name": "perso nix-config zed",
-    "link": "\/Users\/david\/.config\/nixos-config",
-    "openWith": "Zed"
-  },
-  {
-    "name": "perso home-api zed",
-    "link": "\/Users\/david\/perso\/home-api",
-    "openWith": "Zed"
+    "openWith": "Visual Studio Code",
+    "name": "perso nix-config code",
+    "iconName": "brand-vscode-16",
+    "link": "\/Users\/christophe\/.config\/nixos-config"
   }
 ]

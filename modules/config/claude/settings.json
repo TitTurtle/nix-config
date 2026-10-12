@@ -5,8 +5,7 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:docs.airbyte.com)",
-      "Read(//Users/david/.claude/skills/**)",
-      "Read(//Users/david/.agents/skills/handoff/**)",
+      "Read(~/.claude/skills/**)",
       "mcp__linear-server__list_teams",
       "mcp__linear-server__list_initiatives",
       "mcp__linear-server__save_project",
@@ -37,7 +36,6 @@
     "chrome-devtools-mcp@claude-plugins-official": true,
     "datadog@claude-plugins-official": true,
     "mattpocock-skills@claude-plugins-official": true,
-    "sam@claude": true,
     "slack@claude-plugins-official": true,
     "miro@claude-plugins-official": true,
     "avoid-ai-writing@conorbronsdon-skills": true,
@@ -45,12 +43,6 @@
     "sam@wemaintain": true
   },
   "extraKnownMarketplaces": {
-    "claude": {
-      "source": {
-        "source": "directory",
-        "path": "/Users/david/wmtn/backend/packages/claude"
-      }
-    },
     "conorbronsdon-skills": {
       "source": {
         "source": "github",
