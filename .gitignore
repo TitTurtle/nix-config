@@ -17,3 +17,7 @@ docs/research/
 # symlink into modules/config/claude/skills, so the link lands here. It points
 # into the store and is recreated on the next entry.
 modules/config/claude/skills/wm-devenv
+
+# Claude Code moves skills it removes into ~/.claude/skills/.trash, which lands
+# here through the same symlink.
+modules/config/claude/skills/.trash/
