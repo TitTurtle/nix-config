@@ -49,6 +49,7 @@
       "docker-desktop"
       "google-chrome"
       "openlens"
+      "pgadmin4"
       "slack"
       "visual-studio-code"
       "warp"
